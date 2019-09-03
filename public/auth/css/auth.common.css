@@ -1,0 +1,14 @@
+﻿.field-validation-error, .require {
+    color: red;
+}
+body {
+    background-color:#fff
+}
+
+.ui-jqgrid .ui-jqgrid-view, .ui-jqgrid .ui-paging-info, .ui-jqgrid .ui-pg-table, .ui-jqgrid .ui-pg-selbox,.ui-jqgrid-btable {
+    font-size: 13px !important;
+}
+
+.page-content {
+    padding: 20px 20px 24px;
+}

@@ -1,0 +1,3 @@
+<br>
+{{$content}}
+<br>

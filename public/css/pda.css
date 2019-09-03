@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{padding: 0px;margin: 0px;font-style: normal;list-style-type: none;text-decoration: none;font-family: "微软雅黑";font-size: 12px;border:0 none;line-height: 24px;color: #666;outline: 0px; }
+p,a{font-size: 12px;}
+h2,h3,h4{font-size: 14px;}
+body{background: #fff;clear: both;}
+html, body{ width: 100%; height: 100%;}
+.clear{ clear: both; }
+
+.pdabg{ position: relative; }
+.pdabg img{ width: 100%; }
+.pdabg h5{ position: absolute;top: 15%; left: 50%;font-size: 3em;color: #fff;margin-left: -37px; }
+.pdalogin{ width: 80%; margin: 0px auto; height: 350px;position: absolute;top: 30%;left: 10%;padding: 30px 0px;}
+.pdalogin form input{color: #333; margin-top: 25px; height: 40px;line-height: 40px;  width: 88%; padding-left: 40px; border-radius: 5px;border-bottom: 1px solid #eee; text-indent: 10px;}
+.logbut1{ width: 100%; height: 40px; line-height: 40px; background:#2560fc; color: #fff; border-radius: 3px; margin: 0 auto; display: inherit; margin-top: 30px; }
+/*.logicon{ background: url(../img/yh.png) no-repeat;background-position:10px;background-size: 20px 20px;  }*/
+/*.logicon1{ background: url(../img/mm.png) no-repeat;background-position:10px;background-size: 20px 20px;   }*/
+.logicon2{ background: url(../img/yz1.png) no-repeat;background-position:10px;background-size: 20px 20px;   }
+.yz{ position: relative; }
+.yz img{ position: absolute; right: 0; bottom:2px; width: 100px; }
+.choss{ position: absolute;right: 20px;margin-left: -50px; width: 100px; top: 15px;}
+.choss input{ padding-left: 5px!important; width: 100%;border:none!important;}
+.choss .layui-form-selected{ width: 100px; }
+.lang{ text-align: left; }
+
+.fenlei{ text-align: left; }
+.tubiao{ margin-bottom: 20px; }
+.fenlei h3{ font-size: 16px; line-height: 34px; font-weight: 700; }
+.col-1{ width: 30%; float: left; margin: 0px 1%; }
+.col-1 p{ text-align: center; }
+
+.quit{ position: absolute; right: 10px; top: 10px; }
+.quit img,.in img{ width: 24px; }
+.in{ position: absolute; left: 10px; top: 10px; }
+
+.yuyueform{ padding: 0px; }
+.yuyueform .layui-table tbody tr:hover{ background: rgba(0,0,0,0); }
+.yuyueform input{ border: 1px solid #eee; height: 34px; line-height: 34px; width: 100%; padding-left: 5px; }
+.yuyueh5 h5{ font-size: 2em!important;margin-left: -48px!important;letter-spacing: 1px!important; }
+
+.goodsUpIMG .layui-quote-nm{border:none;}
+
+.goodsUpIMG .hoverbox{margin-right:10px; margin-top:10px;display: inline-block;width:130px;height:130px;position: relative; }
+.goodsUpIMG .thumb{width:130px;height:130px;cursor: pointer;}
+.goodsUpIMG .hoverbox:nth-child(even){margin-right: 0px;}
+#prevModal{width:100%; height:100%;padding: 2%; text-align:center; display:none;}
+#img_prev{max-width:98%; max-height:98%;}
+
+#div_prev{font-size: 0px;}
+.hoverbox .delIcon{position: absolute;display: block;top: 0px;right: 0px;height: 30px;width: 30px;cursor: pointer;background: rgba(0,0,0,.7) url(../img/del.png) no-repeat center;z-index: 2;}
+
+.box{ position: relative;width: 100%;overflow: hidden; }
+.box img{ position: absolute; left: 10px; top: 35px; width: 20px; z-index: 9999; }
+

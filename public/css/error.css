@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 280674094@qq.com
+ * @date    2017-06-14 16:40:20
+ * @version $Id$
+ */
+*{padding: 0px;margin:0px;font-family: "微软雅黑";text-decoration: none;}
+	a{color: #ff8800;}
+	a:hover{text-decoration: underline;}
+	.error_page{width:500px;margin:10% auto 0 auto;text-align: center;}
+	.error_page img{width: 160px;}
+	.er_text{padding: 20px 0;}
+	.er_text p{font-size: 14px;color: #999;}
+	.er_text h6{font-weight: normal;font-size: 16px;color: #666;padding-bottom:10px;}
+	.backline a{display: inline-block; *display: inline;*zoom: 1;margin:0 10px;padding-left: 20px;font-size: 14px;}
+	.backline .backhome{background: url(../images/homeico.png) no-repeat left center;}
+	.backline .backprev{background: url(../images/backico.png) no-repeat left center;}

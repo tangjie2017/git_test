@@ -1,0 +1,156 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif,SimSun;
+    border: 0 none;
+    outline: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div,p {
+    word-break: break-all;
+}
+
+a {
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+
+h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+body {
+    clear: both;
+    min-width: 1200px!important;
+    color: #333;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+input,textarea,button,select {
+    outline: none;
+    resize: none;
+    border: 1px solid #ccc;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    font-size: 14px;
+}
+
+button,select,input {
+    height: 34px;
+}
+
+input,textarea {
+    padding: 3px 5px;
+    color: #666;
+    background: #fff;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+    border: 0 none;
+}
+
+label {
+    line-height: 22px;
+}
+
+label th,label td {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}/*google浏览器黄色背景*/
+input::-ms-clear,input::-ms-reveal {
+    display: none;
+}/*ie浏览器的眼睛跟叉叉*/
+input[type='checkbox'],input[type='radio'] {
+    vertical-align: middle;
+    margin-top: -3px;
+    height: 14px;
+}
+
+.graybg {
+    background: #f2f2f2;
+}
+
+.JYloginbg {
+    background: url(../img/jybg.jpg) no-repeat center top;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 260px;
+}
+
+.JYlogPanel {
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0 rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 40px 80px;
+}
+
+.logintitle {
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+.logintitle h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.kb_form {
+    margin: 0 auto;
+}
+
+.kb_form li {
+    margin-bottom: 15px;
+}
+
+.kb_form li input {
+    width: 100%;
+    border: none;
+    padding: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.kb_form li button {
+    width: 100%;
+    height: 40px;
+    background: #0188CC;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.remind {
+    margin-top: 5px;
+    color: red;
+}
+
+.disabled {
+    pointer-events: none;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
